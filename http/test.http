@@ -1,0 +1,17 @@
+###
+GET http://localhost:8080/members1/1
+
+###
+GET http://localhost:8080/members2/1
+
+###
+GET http://localhost:8080/members1?page=0&size=10&sort=id,desc&sort=username,desc
+
+###
+GET http://localhost:8080/members2
+
+###
+GET http://localhost:8080/members4?page=1&size=10
+
+###
+GET http://localhost:8080/members?page=1&size=10
